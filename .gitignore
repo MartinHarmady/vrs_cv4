@@ -1,0 +1,24 @@
+# Build vystupy
+Debug/
+Release/
+build/
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+
+# STM32CubeIDE / Eclipse metadata
+.metadata/
+.settings/
+*.launch
+.mxproject
+
+# Debug / IDE
+*.o
+*.d
+Makefile.local
+
+# System
+.DS_Store
+Thumbs.db
